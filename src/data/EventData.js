@@ -366,6 +366,7 @@ const EventData = [
     prize: "₹6000",
     date: "coming soon",
     brochure: "https://drive.google.com/file/d/1kVjAi7TbkTqr0xAY6uCRkyRgeJVQt4wo/view",
+    submission: "https://forms.gle/NUcFo85YWectMsXN8",
     fees: 100,
     maxTeamSize: 1,
     rulestab: [
@@ -469,7 +470,7 @@ possibilities, and create impactful research.`,
     brochure: "",
     fees: 180,
     maxTeamSize: 4,
-    submission: "",
+    submission: "https://forms.gle/HSVXNnxzfZQypfKa9",
     rulestab: [
       {
         tabId: "1",
