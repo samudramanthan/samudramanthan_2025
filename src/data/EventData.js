@@ -87,7 +87,7 @@ const EventData = [
     date: "coming soon",
     brochure:
       "https://drive.google.com/file/d/1Q5waQpcMu6Ov4Ee-gqKAV-pcJUHjAnvT/view",
-    submission: "",
+    // submission: "",
     rulestab: [
       {
         tabId: "1",
