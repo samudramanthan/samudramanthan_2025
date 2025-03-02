@@ -80,7 +80,7 @@ function Navbar({ page }) {
               href="https://rzp.io/l/NmRVDe7"
               className="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
             >
-              Login
+              Register
             </a>
           {/* )} */}
         </div>
