@@ -1,0 +1,20 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import CapSection from "../components/CapSection";
+import CapForm from "../components/CapForm";
+
+export default function About() {
+    return(
+        <>
+        <div className="container-xxl bg-white p-0">
+        <div className="container-xxl position-relative p-0" id="home">
+          <Navbar page="cap"/>
+        </div>
+        <CapSection />
+        <CapForm />
+        <Footer />
+      </div>
+        </>
+    );
+}
