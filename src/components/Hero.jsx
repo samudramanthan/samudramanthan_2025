@@ -26,12 +26,8 @@ function Hero() {
                                 <a href="/register" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
                             )} */}
                             <a href="https://rzp.io/l/NmRVDe7" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
-                           <Link to="footer" className="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
-                            spy={true}
-                            smooth={true}
-                            offset={50}
-                            duration={500}
-                            >Contact Us</Link>
+                           <a href="/contact" className="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
+                            >Contact Us</a>
                         </div>
                         <div className="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp mt-0" data-wow-delay="0.3s">
                             <img className="img-fluid" src="img/logo.png" alt=""/>

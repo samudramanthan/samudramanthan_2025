@@ -13,31 +13,39 @@ function Footer() {
             <div className="col-md-6 col-lg-8">
               <h4 className="text-white mb-4">Address</h4>
               <p>
-                <i className="fa fa-map-marker-alt me-3"></i>Indian Institute of
-                Technology Kharagpur Kharagpur, West Bengal 721302 India
+                <i className="fa fa-map-marker-alt me-3"></i>
+                Indian Institute of Technology Kharagpur, Kharagpur, West Bengal 721302, India
               </p>
               <p>
-                <i className="fa fa-phone-alt me-3"></i>9451446743 / 8688906547 
+                <i className="fa fa-phone-alt me-3"></i>9451446743 / 8688906547
               </p>
               <p>
                 <i className="fa fa-envelope me-3"></i>
                 samudramanthan.iitkgp.2025@gmail.com
               </p>
               <div className="d-flex pt-2">
-
-                <a className="btn btn-outline-light btn-social" href="https://www.facebook.com/samudramanthan.iitkgp/">
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.facebook.com/samudramanthan.iitkgp/"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a className="btn btn-outline-light btn-social" href="https://www.instagram.com/sm.iitkgp/">
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/sm.iitkgp/"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a className="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/smiitkgp/?originalSubdomain=in" >
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.linkedin.com/company/smiitkgp/?originalSubdomain=in"
+                >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
             <div className="col-md-6 col-lg-3">
-              <h4 className="text-white mb-4">Quick Link</h4>
+              <h4 className="text-white mb-4">Quick Links</h4>
               <a className="btn btn-link" href="/">
                 Home
               </a>
@@ -50,8 +58,17 @@ function Footer() {
               <a className="btn btn-link" href="/gallery">
                 Gallery
               </a>
-              <a className="btn btn-link" href="team">
+              <a className="btn btn-link" href="/team">
                 Our Team
+              </a>
+              <a className="btn btn-link" href="/privacy">
+                Privacy Policy
+              </a>
+              <a className="btn btn-link" href="/terms">
+                Terms &amp; Conditions
+              </a>
+              <a className="btn btn-link" href="/refund-policy">
+                Cancellation/Refund Policy
               </a>
               {/* <a className="btn btn-link" href="https://rzp.io/l/NmRVDe7">
                 Accommodation
@@ -63,6 +80,13 @@ function Footer() {
               Schedule
               </a> */}
             </div>
+          </div>
+        </div>
+        <div className="container-fluid text-light py-3">
+          <div className="container text-center">
+            <p className="mb-0">
+              &copy; 2025 Samudramanthan. All rights reserved.
+            </p>
           </div>
         </div>
       </div>

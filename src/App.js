@@ -9,6 +9,10 @@ import About from './pages/About';
 import SmTeam from './pages/SmTeam';
 import Gallery from './pages/Gallery';
 import Register from './pages/Register';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/TermsAndConditions';
+import CancellationRefundPolicy from './pages/RefundPolicy';
+import Contact from './pages/contact';
 // import Cap from './pages/Cap';
 // import Schedule from './pages/Schedule';
 import Profile from './pages/profile';
@@ -29,6 +33,10 @@ function App() {
         {/* <Route path='/cap' element={<Cap />} /> */}
         {/* <Route path='/schedule' element={<Schedule />} /> */}
         {/* <Route path='/profile' element={<Profile />} /> */}
+        <Route path='/privacy' element={<PrivacyPolicy />} />
+        <Route path='/terms' element={<Terms />} />
+        <Route path='/refund-policy' element={<CancellationRefundPolicy />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>

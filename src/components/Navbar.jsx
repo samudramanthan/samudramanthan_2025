@@ -28,7 +28,7 @@ function Navbar({ page }) {
     <>
       <nav className="navbar sticky-top shadow-sm navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href="/" className="navbar-brand p-0">
-          <h1 className="m-0">Samudramanthan'25</h1>
+          <h1 className="m-0">NAROES</h1>
         </a>
         <button
           className="navbar-toggler"
