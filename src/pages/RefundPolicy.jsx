@@ -26,7 +26,7 @@ export default function CancellationRefundPolicy() {
             </p>
             <h5>3. Refund Process and Timelines</h5>
             <p>
-              After the fest concludes, we will review refund requests within [X] days. Once approved, refunds will be credited to your original payment method within [Y] business days.
+              After the fest concludes, we will review refund requests within 7 days. Once approved, refunds will be credited to your original payment method within 7 business days.
             </p>
             <h5>4. Fees and Charges</h5>
             <p>
@@ -34,7 +34,7 @@ export default function CancellationRefundPolicy() {
             </p>
             <h5>5. How to Request a Refund</h5>
             <p>
-              To request a refund, please contact our support team at <strong>[support-email@example.com]</strong> with your order details and a brief explanation of your cancellation request. We will acknowledge your request and provide further instructions.
+              To request a refund, please contact our support team at <strong>samudramanthan.iitkgp.2025@gmail.com</strong> with your order details and a brief explanation of your cancellation request. We will acknowledge your request and provide further instructions.
             </p>
             <h5>6. Policy Modifications</h5>
             <p>

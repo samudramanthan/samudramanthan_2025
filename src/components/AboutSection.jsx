@@ -9,7 +9,7 @@ export default function AboutSection() {
                         <h5 className="text-primary-gradient fw-medium">NAROES</h5>
                         <h1 className="mb-4">About Samudramanthan</h1>
                         <p className="mb-4">
-                                 Students from all around India participated actively in Samudramanthan in 24 <br />
+                                 Students from all around India participated actively in Samudramanthan <br />
                                  It was a huge success because of the diligent labour, devotion, excitement, ingenuity, and inventiveness. <br />
                                  We had the largest participation ever and received praise for the interesting and difficult competitions. <br />
                             </p>
@@ -19,7 +19,7 @@ export default function AboutSection() {
                                 <i className="fa-solid fa-sack-dollar fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
                                     <div className="ms-3">
                                         <h2 className="mb-0" data-toggle="counter-up">114000</h2>
-                                        <p className="text-primary-gradient mb-0">Cash Price</p>
+                                        <p className="text-primary-gradient mb-0">Cash prize</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ export default function AboutSection() {
                                 <div className="d-flex">
                                     <i className="fa-solid fa-calendar-days fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
                                     <div className="ms-3">
-                                        <h2 className="mb-0" data-toggle="counter-up">7</h2>
+                                        <h2 className="mb-0" data-toggle="counter-up">7+</h2>
                                         <p className="text-primary-gradient mb-0">Event</p>
                                     </div>
                                 </div>
