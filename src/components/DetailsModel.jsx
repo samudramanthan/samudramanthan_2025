@@ -96,7 +96,7 @@ function MyVerticallyCenteredModal(props) {
       setLoading(false); // Disable loading before opening Razorpay
 
       const options = {
-        key: "rzp_test_ZMk8JNDw4oEY2K",
+        key: "rzp_live_yqGMVUg26gmYbS",
         amount: data.amount,
         currency: data.currency,
         order_id: data.orderId,

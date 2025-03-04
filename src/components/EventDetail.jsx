@@ -127,7 +127,7 @@ function EventDetail({ event }) {
               )}
               
 
-              {/* {localStorage.getItem("token") ? (
+              {localStorage.getItem("token") ? (
                 <div className="course-info d-flex justify-content-between align-items-center mb-2">
                   <h5>Register Event</h5>
                   {user.smId ? ( // Check if smId exists inside user
@@ -183,7 +183,7 @@ function EventDetail({ event }) {
                     </a>
                   </p>
                 </div>
-              )} */}
+              )}
 
             </div>
           </div>

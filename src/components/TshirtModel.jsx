@@ -49,7 +49,7 @@ function TshirtModal(props) {
       return;
     }
     const options = {
-      key: "rzp_test_ZMk8JNDw4oEY2K", // Enter the Key ID generated from the Dashboard
+      key: "rzp_live_yqGMVUg26gmYbS", // Enter the Key ID generated from the Dashboard
       amount: data.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency: data.currency,
       order_id: data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1

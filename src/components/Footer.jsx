@@ -70,9 +70,9 @@ function Footer() {
               <a className="btn btn-link" href="/refund-policy">
                 Cancellation/Refund Policy
               </a>
-              {/* <a className="btn btn-link" href="https://rzp.io/l/NmRVDe7">
+              <a className="btn btn-link" href="https://rzp.io/l/NmRVDe7">
                 Accommodation
-              </a> */}
+              </a>
               {/* <a className="btn btn-link" href="/cap">
                 CAP
               </a>
