@@ -16,7 +16,7 @@ function Home() {
         </div>
         <Sponsars />
         {/* <EventSection /> */}
-        {/* <Tshirt /> */}
+        <Tshirt />
         <Footer />
         
       </div>

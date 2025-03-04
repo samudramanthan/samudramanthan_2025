@@ -55,9 +55,9 @@ function Navbar({ page }) {
             <a href="/team" className={"nav-item nav-link" + team}>
               Our Team
             </a>
-            {/* <a href="https://rzp.io/l/NmRVDe7" className={"nav-item nav-link" + accommodation}>
+            <a href="https://rzp.io/l/NmRVDe7" className={"nav-item nav-link" + accommodation}>
               Accommodation
-            </a> */}
+            </a>
             {/* <a href="/cap" className={"nav-item nav-link" + cap}>
               CAP
             </a>
@@ -65,7 +65,7 @@ function Navbar({ page }) {
               Schedule
             </a> */}
           </div>
-{/* 
+
           {localStorage.getItem("token") ? (
             <>
               <button
@@ -75,14 +75,14 @@ function Navbar({ page }) {
                 <i className="fa fa-user"></i>
               </button>
             </>
-          ) : ( */}
+          ) : (
             <a
-              href="https://rzp.io/l/NmRVDe7"
+              href="/register"
               className="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
             >
               Register
             </a>
-          {/* )} */}
+          )} 
         </div>
       </nav>
 

@@ -19,13 +19,13 @@ function Hero() {
                             <p className="text-white pb-3 animated slideInDown">Dive deep into the mythical waters of Samudramanthan, where gods and demons join forces to stir the ocean's depths and reveal its timeless wonders.</p>
                             {/* <p className="text-white pb-3 animated slideInDown">Our website is currently in test mode. Please follow our social media for updates. Some event details may be incorrect, but we will update them within the next two days. </p> */}
                             <p className="text-white pb-3 animated slideInDown"><b>17th Samudramanthan scheduled from 21st March 2025 to 23rd March 2025 </b></p>
-                            {/* {localStorage.getItem("token") ? (
+                            {localStorage.getItem("token") ? (
                                 
                                 <a onClick={logout} className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Logout</a>
                             ) : (
                                 <a href="/register" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
-                            )} */}
-                            <a href="https://rzp.io/l/NmRVDe7" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
+                            )}
+                            {/* <a href="https://rzp.io/l/NmRVDe7" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a> */}
                            <a href="/contact" className="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
                             >Contact Us</a>
                         </div>
