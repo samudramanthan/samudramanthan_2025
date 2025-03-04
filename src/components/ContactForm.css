@@ -1,31 +1,27 @@
 .contact-form-container {
-  background-color: #1e1e1e; /* Dark background */
-  color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 800px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns layout */
-  gap: 20px;
-  /*background: url('your-image-url.jpg') center/cover no-repeat;  Replace with your image URL */
+  padding-left: 10vw;
+  padding-top: 5vh;
+
 }
 
 .contact-form-container h2 {
-  color: #fff;
-  text-align: center;
-  grid-column: 1 / span 2; /* Span both columns */
+  color: #000000;
+  text-align: left;
   margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 .contact-info {
-  padding: 20px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 1.1em;
 }
 
 .contact-info p {
-  margin-bottom: 10px;
-  color: #ddd;
+  margin-bottom: 15px;
+  color: #4e4e4e;
 }
 
 .contact-info i {
@@ -42,9 +38,9 @@
 }
 
 .social-links a {
-  color: #fff;
-  margin-right: 10px;
-  font-size: 1.2em;
+  color: #000000;
+  margin-right: 25px;
+  font-size: 1.5em;
 }
 
 .contact-form-container form {

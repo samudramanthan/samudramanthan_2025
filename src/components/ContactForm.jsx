@@ -40,10 +40,10 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
-      <h2 className="text-white pb-3 animated slideInDown">
+      <h2 className="text-black animated slideInDown">
         Have Any Query? Let us know
       </h2>
-      <div className="contact-info">
+      <div className="contact-info animated slideInRight">
         <p>
           <i className="fas fa-map-marker-alt"></i> Department of Ocean
           Engineering and Naval Architecture, IIT Kharagpur - 721302
@@ -90,7 +90,7 @@ const ContactForm = () => {
           </a> */}
         </div>
       </div>
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
@@ -131,7 +131,7 @@ const ContactForm = () => {
             Failed to send message. Please try again.
           </p>
         )}
-      </form>
+      </form> */}
     </div>
   );
 };
