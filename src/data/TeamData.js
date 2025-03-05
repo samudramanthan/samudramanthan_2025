@@ -36,7 +36,7 @@ const TeamData = [
   {
     name: "Karamtoth Goutham Nayak",
     position: "General Secretary",
-    image: "img/team/goutham.jpg",
+    image: "img/team/gouthamn.jpg",
     linkedin: "https://www.linkedin.com/in/gouthamiitkgp9/",
     facebook: "https://www.facebook.com/profile.php?id=100087708483886",
     instagram: "https://www.instagram.com/gouthamxt/",
@@ -78,6 +78,16 @@ const TeamData = [
     facebook: "https://www.facebook.com/profile.php?id=100087417407869",
     instagram: "https://www.instagram.com/gunashiyaa_02/",
   },
+
+  {
+    name: "Eshwar Naik ",
+    position: "PR Head",
+    image: "img/team/eshwarn.jpg",
+    linkedin: "https://www.linkedin.com/in/eshwarnaikb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    facebook: "https://www.facebook.com/profile.php?id=100087757410046&mibextid=ZbWKwL",
+    instagram: "https://www.instagram.com/eshwar.xt/",
+  },
+
 
   {
     name: "Srestha Gajula",
