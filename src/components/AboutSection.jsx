@@ -9,9 +9,12 @@ export default function AboutSection() {
                         <h5 className="text-primary-gradient fw-medium">NAROES</h5>
                         <h1 className="mb-4">About Samudramanthan</h1>
                         <p className="mb-4">
-                                 Students from all around India participated actively in Samudramanthan <br />
+                                 {/* Students from all around India participated actively in Samudramanthan <br />
                                  It was a huge success because of the diligent labour, devotion, excitement, ingenuity, and inventiveness. <br />
-                                 We had the largest participation ever and received praise for the interesting and difficult competitions. <br />
+                                 We had the largest participation ever and received praise for the interesting and difficult competitions. <br /> */}
+                                 Students from all over India actively participated in Samudramanthan. 
+                                 The event was a true celebration of dedication, enthusiasm, creativity, and innovation, with participants showcasing their skills and pushing their limits. This year, we witnessed the highest number of participants ever, a testament to the growing popularity and prestige of the event. The engaging and challenging competitions received widespread praise, leaving a lasting impact on both participants and spectators. 
+                                 Samudramanthan is not just a competition but a platform for learning, collaborationn, and unforgettable experiences.
                             </p>
                         <div className="row g-4 mb-4">
                             <div className="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
