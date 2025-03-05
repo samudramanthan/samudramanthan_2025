@@ -80,6 +80,16 @@ const TeamData = [
   },
 
   {
+    name: "Eshwar Naik ",
+    position: "PR Head",
+    image: "img/team/eshwarn.jpg",
+    linkedin: "https://www.linkedin.com/in/eshwarnaikb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    facebook: "https://www.facebook.com/profile.php?id=100087757410046&mibextid=ZbWKwL",
+    instagram: "https://www.instagram.com/eshwar.xt/",
+  },
+
+
+  {
     name: "Srestha Gajula",
     position: "Design Head",
     image: "img/team/shreshta.jpg",
