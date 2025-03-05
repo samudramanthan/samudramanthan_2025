@@ -13,6 +13,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/TermsAndConditions';
 import CancellationRefundPolicy from './pages/RefundPolicy';
 import Contact from './pages/contact';
+import ContactUs from './pages/ContactUs';
 // import Cap from './pages/Cap';
 // import Schedule from './pages/Schedule';
 import Profile from './pages/profile';
@@ -36,7 +37,8 @@ function App() {
         <Route path='/privacy' element={<PrivacyPolicy />} />
         <Route path='/terms' element={<Terms />} />
         <Route path='/refund-policy' element={<CancellationRefundPolicy />} />
-        <Route path='/contact' element={<Contact />} />
+        {/* <Route path='/contact' element={<Contact />} /> */}
+        <Route path='/contactus' element={<ContactUs />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
