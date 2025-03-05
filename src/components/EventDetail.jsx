@@ -189,7 +189,67 @@ function EventDetail({ event }) {
           </div>
         </div>
 
-        <div className="container text-center" data-aos="fade-up">
+        <div className="container" data-aos="fade-up">
+      <div className="row">
+        {/* Sidebar Tabs */}
+        <div className="col-lg-3 text-center">
+          <ul className="nav nav-tabs flex-column">
+            {event.rulestab.map((tab) => (
+              <li className="nav-item" key={tab.tabId}>
+                <a
+                  className={`nav-link rounded ${tab.tabId === '1' ? 'active' : ''}`}
+                  data-bs-toggle="tab"
+                  href={"#tab-" + tab.tabId}
+                >
+                  <h5>{tab.heading}</h5>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Tab Content */}
+        <div className="col-lg-9 mt-4 mt-lg-0">
+          <div className="tab-content">
+            {event.rulestab.map((tab) => (
+              <div
+                className={`tab-pane fade ${tab.tabId === '1' ? 'show active' : ''}`}
+                id={"tab-" + tab.tabId}
+                key={tab.tabId}
+              >
+                <div className="row">
+                  <div className="col-lg-8 details order-2 order-lg-1 align-left">
+                    <h3 align="center">{tab.heading}</h3>
+                    {tab.data.map((item, index) => {
+                      if (item.type === 'heading') {
+                        return (
+                          <h5 key={index} style={{ fontWeight: 'bold', marginTop: '15px' }}>
+                            {item.content}
+                          </h5>
+                        );
+                      } else if (item.type === 'paragraph') {
+                        return <p key={index}>{item.content}</p>;
+                      } else if (item.type === 'list') {
+                        return (
+                          <ul key={index}>
+                            {item.items.map((listItem, i) => (
+                              <li key={i}>{listItem}</li>
+                            ))}
+                          </ul>
+                        );
+                      } else {
+                        return null;
+                      }
+                    })}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>      
+        {/* <div className="container text-center" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
@@ -223,7 +283,7 @@ function EventDetail({ event }) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Toast for notifications */}

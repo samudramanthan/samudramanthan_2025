@@ -8,20 +8,20 @@ const Events = [
   // },
   {
     name: "Deep Sea Disputes",
-    link: "/Dispustes",
+    link: "/DeepSeaDisputes",
     poster: "/img/event/DeepSeaDispustes_Logo.png",
     description: "Engage in debates on ocean-related topics.",
   },
   {
     name: "Maritime Mystery",
-    link: "/Treasurehunt",
+    link: "/MaritimeMystery",
     poster: "/img/event/TresureHunt_Logo.jpg",
     description:
       "Solve puzzles and uncover hidden clues in this treasure hunt.",
   },
   {
     name: "Boat Wars",
-    link: "/Boatwars",
+    link: "/BoatWars",
     poster: "img/event/BoatWars_Logo.png",
     description:
       "Compete in boat racing, tug of war, and waste cleaning challenges.",
@@ -34,13 +34,13 @@ const Events = [
   },
   {
     name: "Aqua Exposure",
-    link: "/Aquaexposure",
+    link: "/AquaExposure",
     poster: "/img/event/AquaExposure_Logo.png",
     description: "Showcase ocean engineering through original photographs.",
   },
   {
     name: "Wave Quest",
-    link: "/Wavequest",
+    link: "/WaveQuest",
     poster: "/img/event/WaveQuest_Logo.jpg",
     description: "Solve real-world ocean engineering case studies.",
   },
