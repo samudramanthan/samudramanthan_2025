@@ -16,6 +16,8 @@ import Terms from './pages/TermsAndConditions';
 import CancellationRefundPolicy from './pages/RefundPolicy';
 // import Contact from './pages/contact';
 import ContactUs from './pages/ContactUs';
+// import Cap from './pages/Cap';
+// import Schedule from './pages/Schedule';
 
 // Admin Pages
 import AdminLogin from './pages/AdminLogin';
