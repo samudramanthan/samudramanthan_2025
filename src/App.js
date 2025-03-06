@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Event from './pages/Event';
 import EventData from './data/EventData';
@@ -10,6 +10,12 @@ import Gallery from './pages/Gallery';
 import Register from './pages/Register';
 import Profile from './pages/profile';
 import AllEvent from './pages/AllEvent';
+
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/TermsAndConditions';
+import CancellationRefundPolicy from './pages/RefundPolicy';
+// import Contact from './pages/contact';
+import ContactUs from './pages/ContactUs';
 
 // Admin Pages
 import AdminLogin from './pages/AdminLogin';
@@ -33,12 +39,24 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/profile' element={<Profile />} />
 
+        <Route path='/register' element={<Register />} />
+        {/* <Route path='/cap' element={<Cap />} /> */}
+        {/* <Route path='/schedule' element={<Schedule />} /> */}
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/privacy' element={<PrivacyPolicy />} />
+        <Route path='/terms' element={<Terms />} />
+        <Route path='/refund-policy' element={<CancellationRefundPolicy />} />
+        {/* <Route path='/contact' element={<Contact />} /> */}
+        <Route path='/contactus' element={<ContactUs />} />
+
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         {/* <Route path="/admin/users" element={<AdminUsers />} /> */}
         <Route path="/admin/user/:smId" element={<AdminUserDetails />} />
         {/* <Route path="/admin/event/:event" element={<AdminEventDetails />} /> */}
+
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
   );
