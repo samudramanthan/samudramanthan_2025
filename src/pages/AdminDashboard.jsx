@@ -34,13 +34,13 @@ export default function AdminDashboard() {
                 if (viewMode === "event") {
                     console.log(selectedEvent)
                     // if(selectedEvent){
-                        res = await axios.get(`http://localhost:5000/admin/getEventDetails?event=${selectedEvent}`, {
+                        res = await axios.get(`https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/admin/getEventDetails?event=${selectedEvent}`, {
                             headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` }
                         });
                     
                     
                 } else {
-                    res = await axios.get("http://localhost:5000/admin/getAllUsers", {
+                    res = await axios.get("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/admin/getAllUsers", {
                         headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` }
                     });
                 }

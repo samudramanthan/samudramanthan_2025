@@ -30,7 +30,7 @@ export default function AdminLogin() {
     const data = { email, password };
 
     try {
-      const res = await axios.post("http://localhost:5000/admin/login", data);
+      const res = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/admin/login", data);
       console.log(res)
       if (res.data.status === "success") {
         localStorage.setItem("adminToken", res.data.token);

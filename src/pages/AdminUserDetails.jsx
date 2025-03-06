@@ -16,7 +16,7 @@ export default function UserDetails() {
   useEffect(() => {
     const fetchUserDetails = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/admin/getUser/${smId}`, {
+        const res = await axios.get(`https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/admin/getUser/${smId}`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
         });
         if (res.data.status === "success") {
