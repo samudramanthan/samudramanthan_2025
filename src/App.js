@@ -17,7 +17,7 @@ import CancellationRefundPolicy from './pages/RefundPolicy';
 // import Contact from './pages/contact';
 import ContactUs from './pages/ContactUs';
 // import Cap from './pages/Cap';
-// import Schedule from './pages/Schedule';
+import Schedule from './pages/Schedule';
 
 // Admin Pages
 import AdminLogin from './pages/AdminLogin';
@@ -43,7 +43,7 @@ function App() {
 
         <Route path='/register' element={<Register />} />
         {/* <Route path='/cap' element={<Cap />} /> */}
-        {/* <Route path='/schedule' element={<Schedule />} /> */}
+        <Route path='/schedule' element={<Schedule />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/privacy' element={<PrivacyPolicy />} />
         <Route path='/terms' element={<Terms />} />
