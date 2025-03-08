@@ -60,10 +60,10 @@ function Navbar({ page }) {
             </a>
             {/* <a href="/cap" className={"nav-item nav-link" + cap}>
               CAP
-            </a>
+            </a> */}
             <a href="/schedule" className={"nav-item nav-link" + schedule}>
               Schedule
-            </a> */}
+            </a>
           </div>
 
           {localStorage.getItem("token") ? (
