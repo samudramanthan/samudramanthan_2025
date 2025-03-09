@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import EventSection from "../components/EventSection";
 import Tshirt from "../components/Tshirt";
 import Sponsars from "../components/Sponsars";
+import SpecialRegistration from "../components/SpecialRegistration";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <div className="container-xxl position-relative p-0" id="home">
           <Navbar page="home" />
           <Hero />
+          <SpecialRegistration />
         </div>
         <Sponsars />
         {/* <EventSection /> */}
