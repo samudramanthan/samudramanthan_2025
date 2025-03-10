@@ -103,7 +103,7 @@ const timelinedata=[
 
     {
         id: 12,
-        title: "Boat Race Round 3",
+        title: "Boat War Round 3",
         date: "23rd March 2025",
         time: "1:00PM - 4:00PM",
         location: "Pool Area",

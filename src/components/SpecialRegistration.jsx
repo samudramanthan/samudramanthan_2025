@@ -20,7 +20,7 @@ function SpecialRegistration() {
     return (
         <div className="container-xxl bg-warning text-dark special-registration py-5">
             <div className="container text-center">
-                <h2 className="mb-4 fw-bold animated fadeInUp">Exclusive Offer!</h2>
+                <h2 className="mb-4 fw-bold animated fadeInUp">Limited Time Exclusive Offer!</h2>
                 <p className="lead animated fadeInUp">
                     Pay just <b>₹750</b> once and participate in <b>any event</b> of your choice!
                 </p>
