@@ -53,7 +53,7 @@ export default function AboutSection() {
                                 </div>
                             </div>
                         </div>
-                        <a href="/register" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Register</a>
+                        {/* <a href="/register" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Register</a> */}
                     </div>
                     <div className="col-lg-6">
                         <img className="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/logo.png"/>
