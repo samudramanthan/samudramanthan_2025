@@ -24,6 +24,7 @@ import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 // import AdminUsers from './pages/AdminUsers';
 import AdminUserDetails from './pages/AdminUserDetails';
+import AdminStats from './pages/AdminStats';
 // import AdminEventDetails from './pages/AdminEventDetails';
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         {/* <Route path="/admin/users" element={<AdminUsers />} /> */}
         <Route path="/admin/user/:smId" element={<AdminUserDetails />} />
-        {/* <Route path="/admin/event/:event" element={<AdminEventDetails />} /> */}
+        <Route path="/admin/stats" element={<AdminStats />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
