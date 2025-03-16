@@ -13,8 +13,8 @@ function Testimonial() {
     dots: false,
     nav: true,
     navText: [
-      '<i className="bi bi-chevron-left"></i>',
-      '<i className="bi bi-chevron-right"></i>',
+      '<i class="bi bi-chevron-left"></i>',
+      '<i class="bi bi-chevron-right"></i>',
     ],
     responsive: {
       0: {
