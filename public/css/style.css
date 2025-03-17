@@ -691,8 +691,8 @@ h6,
 }
 
 .schedule_button{
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-    color: white;
+    background: var(--light);
+    color: var(--dark);
     transition: all 0.3s ease-in-out;
 }
 
@@ -703,8 +703,8 @@ h6,
 }
 
 .schedule_button.active{
-    background: var(--light) ;
-    color: var(--dark);
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary)); ;
+    color: white;
     scale: 1.1;
 }
 
@@ -717,5 +717,3 @@ h6,
 .alight-left{
     text-align: left;
 }
-
-
