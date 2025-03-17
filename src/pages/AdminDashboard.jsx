@@ -52,7 +52,7 @@ export default function AdminDashboard() {
                             headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` }
                         }
                     );
-                    console.log("HERE IN ALL, with data as ", res.data.data);
+                    // console.log("HERE IN ALL, with data as ", res.data.data);
                 }
 
                 if (res.data.status === "success") {

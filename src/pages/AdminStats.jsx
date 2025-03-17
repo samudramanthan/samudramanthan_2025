@@ -28,7 +28,7 @@ export default function AdminStats() {
     useEffect(() => {
         const fetchStats = async () => {
             try {
-                const res = await axios.get("http://localhost:5000/admin/getStats", {
+                const res = await axios.get("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/admin/getStats", {
                     headers: { Authorization: `Bearer ${localStorage.getItem("adminToken")}` },
                 });
                 if (res.data.status === "success") {
@@ -39,7 +39,11 @@ export default function AdminStats() {
                 }
             } catch (err) {
                 console.error(err);
-                showToastMessage(err.response?.data?.message || "Unauthorized", "error");
+                showToastMessage(err.response?.data?.message || "Error fetching data", "error");
+                if (err.response && (err.response.status >= 401 && err.response.status <= 403)) {
+                    localStorage.removeItem("adminToken");
+                    navigate("/admin");
+                }
             } finally {
                 setLoading(false);
             }
