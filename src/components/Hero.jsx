@@ -14,8 +14,8 @@ function Hero() {
                     <div className="row g-5">
                         <div className="col-lg-8 text-center text-lg-start">
                             <h1 className="text-white mb-4 animated slideInDown">Welcome to Samudramanthan</h1>
-                            <p className="text-white pb-3 animated slideInDown">Dive deep into the mythical waters of Samudramanthan, where gods and demons join forces to stir the ocean's depths and reveal its timeless wonders.</p>
-                            <p className="text-white pb-3 animated slideInDown"><b>17th Samudramanthan scheduled from 21st March 2025 to 23rd March 2025 </b></p>
+                            {/* <p className="text-white pb-3 animated slideInDown">Dive deep into the mythical waters of Samudramanthan, where gods and demons join forces to stir the ocean's depths and reveal its timeless wonders.</p> */}
+                            <p className="text-white pb-3 animated slideInDown"><b>17th Edition, Samudramanthan 2025 is scheduled from 21st March 2025 to 23rd March 2025 </b></p>
                             {localStorage.getItem("token") ? (
                                 <a onClick={logout} className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Logout</a>
                             ) : (

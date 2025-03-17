@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import EventDetail from "../components/EventDetail";
 import EventData from "../data/EventData";
 import EventSection from "../components/EventSection";
+
 function AllEvent({event}) {
     // const { link } = useParams(); // Extracting 'link' from URL
     // const event = EventData.find(event => event.link === link); // Finding event by link
