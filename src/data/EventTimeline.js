@@ -67,7 +67,7 @@ const timelinedata = [
     title: "Quizathon",
     date: "22nd March 2025",
     time: "5:00PM - 7:00PM",
-    location: "CL 3",
+    location: "CL 6",
     icon: "casual",
     day: 1,
   },
