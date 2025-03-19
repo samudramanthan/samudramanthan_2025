@@ -3,7 +3,7 @@ const timelinedata = [
     id: 1,
     title: "Registration",
     date: "21st March 2025",
-    time: "8:00AM - 4:00PM",
+    time: "8:00AM - 5:00PM",
     location: "Conference Room",
     icon: "casual",
     day: 0,
