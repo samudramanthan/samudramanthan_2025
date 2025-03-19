@@ -31,7 +31,7 @@ const timelinedata = [
     title: "Deep Sea Disputes",
     date: "22nd March 2025",
     time: "8:00AM - 11:00AM",
-    location: "Yet to decide",
+    location: "Seminar Room",
     icon: "casual",
     day: 1,
   },
