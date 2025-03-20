@@ -187,12 +187,13 @@ function Tshirt() {
                   sm_id === "Buy Now" ? (
                     !showSizeForm ? (
                       <button
-                        onClick={() => setShowSizeForm(true)}
+                        // onClick={() => setShowSizeForm(true)}
                         className="d-flex btn bg-primary-gradient rounded py-3 px-4"
                       >
                         <div className="ms-3">
-                          <p className="text-white mb-0">T-shirt</p>
-                          <h5 className="text-white mb-0">Buy Now</h5>
+                          {/* <p className="text-white mb-0">T-shirt</p> */}
+                          {/* <h5 className="text-white mb-0">Buy Now</h5> */}
+                          <h5 className="text-white mb-0">Registration are closed</h5>
                         </div>
                       </button>
                     ) : (
