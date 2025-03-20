@@ -84,14 +84,14 @@ function Sponsors() {
               <div className="card spons-img">
                 <img src="img\Spons\cbc.png" className="card-img-top" alt="" />
               </div>
-              <h5 className="spons_txt my-4">Gaming Partner</h5>
+              <h5 className="spons_txt my-4">Brand Partner</h5>
             </div>
 
             <div className="spons_width3 col">
               <div className="card spons-img">
                 <img src="img\Spons\sah.png" className="card-img-top resize" alt="" />
               </div>
-              <h5 className="spons_txt my-4">Gaming Partner</h5>
+              <h5 className="spons_txt my-4">Selfcare Partner</h5>
             </div>
 
             <div className="spons_width3 col">
