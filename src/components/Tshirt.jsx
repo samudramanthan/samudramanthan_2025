@@ -70,6 +70,10 @@ function Tshirt() {
   }, [navigate]);
 
   const handleSizeSubmit = async () => {
+
+    showToastMessage("Regristration closed");
+    return;
+
     if (!selectedSize) {
       showToastMessage("Please select a T-shirt size.", "warn");
       return;
@@ -189,6 +193,7 @@ function Tshirt() {
                       <button
                         // onClick={() => setShowSizeForm(true)}
                         className="d-flex btn bg-primary-gradient rounded py-3 px-4"
+                        disabled
                       >
                         <div className="ms-3">
                           {/* <p className="text-white mb-0">T-shirt</p> */}

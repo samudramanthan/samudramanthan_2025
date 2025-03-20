@@ -56,9 +56,12 @@ function EventDetail({ event }) {
     setTimeout(() => setShowToast(false), 3000); // Hide after 3 seconds
   };
 
-  async function details() {
-    showToastMessage("You clicked to view or register for the event!");
-    setModalShow(true);
+  async function details(allowed) {
+    if(allowed){
+      setModalShow(true);
+    } else{
+      showToastMessage("Regristration has been closed for this event");
+    }
   }
 
   return (
@@ -135,7 +138,7 @@ function EventDetail({ event }) {
                       <p>
                         <a
                           className="btn btn-green-gredient rounded-pill py-2 px-4"
-                          onClick={details}
+                          onClick={()=>details(true)}
                         >
                           View details
                         </a>
@@ -144,7 +147,7 @@ function EventDetail({ event }) {
                       <p>
                         <a
                           className="btn btn-secondary-gradient rounded-pill py-2 px-4"
-                          onClick={details}
+                          onClick={()=>details(false)}
                         >
                           Register Now
                         </a>
